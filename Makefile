@@ -1,4 +1,10 @@
+all: build run
+
 build:
-	javac hw01.java
+	javac hw1.java
+
 run:
-	java hw01
+	java hw1
+
+clean: 
+	rm -f *.class
